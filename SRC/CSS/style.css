@@ -334,6 +334,7 @@
     }
     .content{
         flex-direction: column;
+        margin-bottom: 100px;
     }
     .content img{
         width: 100%;
