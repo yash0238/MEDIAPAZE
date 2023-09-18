@@ -367,7 +367,7 @@ nav a img:hover {
         display: none;
     }
 
-    #logo {
+    #logo a{
         font-size: 5vh;
         margin-left: 5vw;
         margin-right: 0;
