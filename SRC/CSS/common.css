@@ -483,10 +483,15 @@ nav a img:hover {
         width: 100%;
     }
     .footer-part2-quicklinks{
+        margin: 0;
+        justify-content: center;
         display: flex;
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
+    }
+    .footer{
+        padding: 10px 10px;
     }
 
 

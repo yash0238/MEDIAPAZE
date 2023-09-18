@@ -17,15 +17,33 @@
         <nav>
             <span id="logo">MediaPaze</span>
             <div class="options">
-                <a href="../HTML/index.html">Home</a>
-                <!-- <a href="#">Pricing</a> -->
-                <a href="../HTML/service.html" class="active">Services</a>
+
+                <a href="../HTML/index.html" class="active">Home</a>
+                <a href="../HTML/service.html">Services</a>
                 <a href="../HTML/about.html">About</a>
                 <a href="../HTML/contact.html">Contact</a>
                 <a href="../HTML/our_team.html">Our Team</a>
             </div>
-            <span class="get-quote" onclick="window.location.href = '../HTML/index.html#process'">Get Free Quote now</span>
-            <a href="https://wa.me/917415212350?=Hello! I have some work to be done." target="_blank"><img src="../MEDIA/whatsapp.png" alt="MediaPaze"></a>
+            <span class="get-quote" onclick="window.location.href = '#process'" id="nav-get-quote">Get Free Quote
+                now</span>
+            <a href="https://wa.me/917415212350?=Hello! I have some work to be done." target="_blank" id="wa-icon"><img
+                    src="../MEDIA/whatsapp.png" alt="MediaPaze"></a>
+                    <div class="hamburger-menu" >
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <divv>
+
+                    <ul class="menu-items">
+
+                        <li><a href="../HTML/index.html" class="active">Home</a></li>
+                        <li><a href="../HTML/service.html">Services</a></li>
+                        <li><a href="../HTML/about.html">About</a></li>
+                        <li><a href="../HTML/contact.html">Contact</a></li>
+                        <li><a href="../HTML/our_team.html">Our Team</a></li>
+                    </ul>
+                </divv>
         </nav>
     </section>
 
@@ -102,6 +120,7 @@
                 <h1 id="footer-logo">MediaPaze</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
+            <div class="footer-part2-quicklinks">
             <div class="footer-links">
                 <h2>Services</h2>
                 <div class="footer-links-sec">
@@ -119,7 +138,7 @@
                     <a href="#">Contact Us</a>
                     <a href="#">Career with us</a>
                 </div>
-            </div>
+            </div></div>
             <div class="footer-quote">
                 <h1>Get Marketing Consultation</h1>
                 <h2>Any Questions? Get Free Consultation Now!</h2>
@@ -130,10 +149,7 @@
     </section>
 
 
-
-
-
-
+    <script src="../JS/hmmenu.js"></script>
 </body>
 
 </html>

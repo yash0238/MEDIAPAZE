@@ -331,6 +331,7 @@
     .service-menu-item{
         font-size: 2vw;
         padding: 10px;
+        margin-left: 5px;
     }
     .content{
         flex-direction: column;
@@ -345,9 +346,14 @@
 
     .about{
         flex-direction: column-reverse;
+        padding: 10px 10px;
+    }
+    .about-text-area{
+        width: 100%;
     }
     .about img{
         width: 100%;
+        margin-left: 0;
 
     }
 
