@@ -328,6 +328,26 @@
     .intro-cont-text-area span{
         font-size: 3vw;
     }
-    
+    .service-menu-item{
+        font-size: 2vw;
+        padding: 10px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content img{
+        width: 100%;
+    }
+    .service-content-text-area{
+        text-align: center;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about img{
+        width: 100%;
+
+    }
 
 }
