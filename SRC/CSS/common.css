@@ -307,3 +307,103 @@ nav a img:hover{
 .footer-links-sec a:hover{
 color: #ff4500;
 }
+
+
+
+
+
+
+
+
+
+/* RESPONSIVNESS */
+
+@media(min-width:801px){
+    .hamburger-menu{
+        display: none;
+    }
+    .menu-items{
+        display: none;
+    }
+}
+
+
+@media(max-width:800px){
+    nav .options{
+        display: none;
+    }
+    nav{
+        padding: 0;
+        z-index: 999;
+    }
+    
+    #nav-get-quote{
+        display: none;
+    }
+    #logo{
+        font-size: 5vh;
+        margin-left: 5vw;
+        margin-right: 0;
+    }
+    #wa-icon{
+        display: block;
+        position: relative;
+        right: 0;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    #wa-icom img{
+        width: 10px;
+        height: 10px;
+        margin: 0 0;
+    }
+    .hamburger-menu{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 10px;
+        position: relative;
+        right: 0;
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
+    .bar{
+        width: 30px;
+        height: 3px;
+        background-color: #000000;
+        margin: 3px 0;
+    }
+    .menu-items{
+        display: none;
+
+        
+    }
+    .show-menu{
+        display: block;
+        position: absolute;
+        height: 100vh;
+        top: 50px;
+        right: 0;
+        background-color: black;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: display 2s;
+    }
+    .menu-items li{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    .menu-items a{
+        text-decoration: none;
+        color: #333;
+    }
+
+
+
+}
+
+
+
+
+

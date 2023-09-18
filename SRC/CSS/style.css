@@ -304,3 +304,30 @@
     font-size: 30px;
     margin-bottom: 0px;
 }
+
+
+@media(max-width:800px){
+    #intro{
+        position: relative;
+        top: 50px;
+    }
+    .intro-cont{
+        width: 100vw;
+        height: 75vh;
+        flex-direction: column;
+    }
+    .intro-cont-img{
+        width: 100%;
+    }
+    .intro-cont-text-area{
+        width: 100%;
+    }
+    .intro-cont-text-area h1{
+        font-size: 5vw;
+    }
+    .intro-cont-text-area span{
+        font-size: 3vw;
+    }
+    
+
+}
