@@ -2,9 +2,9 @@
 
 :root {
     --main-bg-color: #0078d4;
-  }
+}
 
-  
+
 * {
     box-sizing: border-box;
     /* border: 1px solid red; */
@@ -44,33 +44,33 @@ body {
 
 .get-quote {
     display: inline-block;
-    padding: 10px 20px; 
-    background-color: var(--main-bg-color); 
-    color: white; 
+    padding: 10px 20px;
+    background-color: var(--main-bg-color);
+    color: white;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 5px; 
-    transition: background-color 0.3s ,color 0.5s; 
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.5s;
     font-family: 'Mooli', sans-serif;
     font-size: 22px;
-    
+
 }
 
-.get-quote:hover{
+.get-quote:hover {
     background-color: #00ff08e8;
     font-weight: bolder;
     color: black;
 }
 
 
-#logo{
+#logo {
     font-size: 45px;
     margin-left: 60px;
     font-family: 'Indie Flower', cursive;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: black;
     margin-left: 38px;
@@ -78,24 +78,26 @@ nav a{
     font-size: 25px;
     transition: background-color 0.3s, color 0.3s;
 }
+
 nav a.active {
     padding: 4px;
     border-radius: 10px;
     color: var(--main-bg-color);
 }
 
-nav a:hover{
+nav a:hover {
     padding: 4px;
     border-radius: 10px;
     color: var(--main-bg-color);
 }
 
 
-.options{
+.options {
     align-items: center;
     margin: auto;
 }
-nav{
+
+nav {
     padding: 10px;
     padding-left: 20px;
     padding-right: 50px;
@@ -111,14 +113,15 @@ nav{
     position: fixed;
     margin-bottom: 200px;
 }
-nav a img{
+
+nav a img {
     width: 50px;
     height: 50px;
     margin-top: 7px;
     border-radius: 10px;
 }
 
-nav a img:hover{
+nav a img:hover {
     box-shadow: 1px 1px 10px 1px grey;
 
 }
@@ -161,7 +164,7 @@ nav a img:hover{
 
 
 
-#get-quote-section{
+#get-quote-section {
     display: flex;
     flex-direction: row;
     background-image: url(../MEDIA/quote-background.jpg);
@@ -174,7 +177,7 @@ nav a img:hover{
     border-radius: 5px;
 }
 
-#get-quote-section-text{
+#get-quote-section-text {
     font-size: 30px;
     margin-right: 50px;
 }
@@ -197,7 +200,7 @@ nav a img:hover{
 
 
 
-.footer{
+.footer {
     background-color: black;
     color: white;
     font-family: 'Mooli', sans-serif;
@@ -205,18 +208,18 @@ nav a img:hover{
     padding: 50px 50px;
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
     color: white;
 }
 
-.footer-part1{
+.footer-part1 {
     display: flex;
     flex-direction: row;
 }
 
 
-.address-a-info{
+.address-a-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,13 +227,13 @@ nav a img:hover{
     width: 50%;
 }
 
-.address-a-info img{
+.address-a-info img {
     width: 30px;
     height: 30px;
     margin-right: 20px;
 }
 
-.aai-content{
+.aai-content {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -238,18 +241,18 @@ nav a img:hover{
     margin-top: 10px;
 }
 
-.aai-content p{
+.aai-content p {
     margin: 0;
     align-items: center;
 }
 
-.newsletter{
+.newsletter {
     width: 50%;
     align-items: center;
-    
+
 }
 
-.newsletter #email-input{
+.newsletter #email-input {
     width: 80%;
     height: 40%;
     padding: 10px;
@@ -260,52 +263,70 @@ nav a img:hover{
     background-color: #ffffff1e;
 }
 
-#newsletter-submit{
+#newsletter-submit {
     font-size: x-large;
     padding: 10px;
     cursor: pointer;
 }
 
-#newsletter-submit:active{
+#newsletter-submit:active {
     background-color: #92c5eb;
 }
 
-.footer-part2{
+.footer-part2 {
     display: flex;
     flex-direction: row;
 }
 
-#footer-logo{
+#footer-logo {
     font-family: 'Indie Flower', cursive;
     font-size: 35px;
     margin: 0;
-    
+
 }
-.footer-about p{
+
+.footer-about p {
     margin: 0;
     word-wrap: break-word;
 }
-.footer-about{
+
+.footer-about {
     width: 20%;
 }
 
-.footer-links{
+.footer-links {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 50%;
+}
+.footer-links h2{
+    margin: 0;
+}
+.footer-quote h1{
+    margin: 0;
 }
 
-.footer-links .footer-links-sec{
+.footer-links .footer-links-sec {
     display: flex;
     flex-direction: column;
 }
 
-.footer-links-sec a{
+.footer-links-sec a {
     transition: color 0.5s;
     margin-top: 8px;
 }
-.footer-links-sec a:hover{
-color: #ff4500;
+
+.footer-links-sec a:hover {
+    color: #ff4500;
+}
+
+.footer-part2-quicklinks{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+    flex-direction: row;
+    margin-left: 10%;
 }
 
 
@@ -318,46 +339,52 @@ color: #ff4500;
 
 /* RESPONSIVNESS */
 
-@media(min-width:801px){
-    .hamburger-menu{
+@media(min-width:801px) {
+    .hamburger-menu {
         display: none;
     }
-    .menu-items{
+
+    .menu-items {
         display: none;
     }
 }
 
 
-@media(max-width:800px){
-    nav .options{
+@media(max-width:800px) {
+    nav .options {
         display: none;
     }
-    nav{
+
+    nav {
         padding: 0;
         z-index: 999;
     }
-    
-    #nav-get-quote{
+
+    #nav-get-quote {
         display: none;
     }
-    #logo{
+
+    #logo {
         font-size: 5vh;
         margin-left: 5vw;
         margin-right: 0;
     }
-    #wa-icon{
+
+    #wa-icon {
         display: block;
         position: relative;
         right: 0;
         margin-right: 0;
         margin-left: auto;
     }
-    #wa-icom img{
+
+    #wa-icom img {
         width: 10px;
         height: 10px;
         margin: 0 0;
     }
-    .hamburger-menu{
+
+    .hamburger-menu {
         display: flex;
         flex-direction: column;
         cursor: pointer;
@@ -366,20 +393,23 @@ color: #ff4500;
         right: 0;
         margin-right: 0;
         margin-left: 0;
-        
+
     }
-    .bar{
+
+    .bar {
         width: 30px;
         height: 3px;
         background-color: #000000;
         margin: 3px 0;
     }
-    .menu-items{
+
+    .menu-items {
         display: none;
 
-        
+
     }
-    .show-menu{
+
+    .show-menu {
         display: block;
         position: absolute;
         height: 100vh;
@@ -390,11 +420,13 @@ color: #ff4500;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         transition: display 2s;
     }
-    .menu-items li{
+
+    .menu-items li {
         list-style: none;
         margin-bottom: 10px;
     }
-    .menu-items a{
+
+    .menu-items a {
         text-decoration: none;
         color: #333;
     }
@@ -404,6 +436,58 @@ color: #ff4500;
 }
 
 
+@media(max-width:800px) {
+    .address-a-info {
+        margin: 0;
+    }
+
+    .aai-content img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .aai-content {
+        font-size: 2vw;
+        margin-left: 10px;
+    }
+
+    .newsletter #email-input {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: 40%;
+        padding: 10px;
+        align-items: center;
+        font-size: 2.5vw;
+    }
+    #email-input{
+        margin-bottom: 5px;
+    }
+    #newsletter-submit{
+        font-size: 2vw;
+    }
+    .footer-links{
+        /* margin-left: 20%; */
+        margin: 10% 0;
+        width: 100%;
+    }
+
+    .footer-part2{
+        flex-direction: column;
+    }
+    .footer-about,.footer-links, .footer-quote{
+        width: 100%;
+    }
+    .footer-part2-hr{
+        width: 100%;
+    }
+    .footer-part2-quicklinks{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 
-
+}
