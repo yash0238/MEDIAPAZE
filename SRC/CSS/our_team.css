@@ -1,0 +1,59 @@
+.intro-sec{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../MEDIA/common_intro-background2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:87px ;
+    position: fixed;
+    z-index: -1;
+    margin-bottom: 50vh;
+}
+
+
+/* .intro-sec img{
+    width: 100%;
+    height: 50vh;
+} */
+
+.intro-sec h1{
+    text-align: center;
+    margin: 0;
+    font-family: 'Mooli',sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+}
+
+.page-content{
+    margin-top: calc(50vh + 100px);
+    width: 100%;
+    height: 500px;
+    font-family: 'Mooli',sans-serif;
+    font-size: 40px;
+    /* margin-left: 30px; */
+    background-color: rgb(247, 251, 255);;
+}
+
+.content-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/* temp css */
+
+
+.content-body span{
+    font-size: 50px;
+    color: red;
+}
+
+
+
+
+
+/* temp css */
