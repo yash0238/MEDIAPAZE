@@ -64,10 +64,13 @@ body {
 }
 
 
-#logo {
+#logo a{
     font-size: 45px;
     margin-left: 60px;
     font-family: 'Indie Flower', cursive;
+}
+#logo a:hover{
+    color: red;
 }
 
 nav a {
